@@ -331,7 +331,7 @@ When comparing the effectiveness of the drugs Capomulin & Ramicane against Infub
     
     print(f"Correlation Coefficient between Mouse Weight and Average Tumor Volume: {correlation:.2f}")
 
-#As I was also unfamiliar with the foundational priciple of calculating using Pearson R, Luke Manning also assisted with this part of my code, explaining in detail as to what is being used in each calculation so I could also use this to scale it to the other Regimens I intended to use in my analysis. 
+#As I was unfamiliar with the foundational principles of calculating using Pearson R, my tutor Luke Manning also assisted with this part of my code, explaining in detail as to what is being used in each calculation so I could also use this to scale it to the other Regimens I intended to use in my analysis.
 
     corr=round(st.pearsonr(capomulin_grouped['Weight (g)'],capomulin_grouped['Tumor Volume (mm3)'])[0],2)
     
